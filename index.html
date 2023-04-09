@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+      *
+    {
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+        font-family: Arial;
+    }
+    .anlogo
+    {
+        padding: 10px;
+        float: left;
+
+    }
+
+    .heading
+    {
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 2000;
+
+    }
+
+    #logo-div
+    {
+        width: 100%;
+        min: height 90px;
+        background-color: rgb(9, 50, 145);
+        padding-left: 0%;
+        line-height: 90px;
+        margin-bottom:10px;
+    }
+
+    #nav-div
+    {
+        width: 100%;
+        min-height: 30px;
+        background-color: rgb(30, 124, 139);
+        text-align:center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #header-div
+    {
+        width: 100%;
+        min-height: 100px;
+        background-color: rgb(216, 97, 32);
+        text-align:center;
+        line-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    #main-div
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #sidebar-div
+    {
+        width: 25%;
+        min-height: 500px;
+        background-color: rgb(241, 238, 66);
+        float:left;
+        text-align: center;
+        line-height: 500px;
+    }
+
+    #bodyarea-div
+    {
+        width: 75%;
+        min-height: 500px;
+        background-color: rgb(199, 64, 34);
+        float:right;
+        text-align: center;
+        line-height: 500px;
+    }
+
+    .clearfix::after
+    {
+        content: "";
+        display:block;
+        clear: both;
+    }
+
+    #footer-div
+    {
+        width: 100%;
+        min-height: 30px;
+        background-color: brown;
+       text-align:center;
+        line-height: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #wrapper-div
+    {
+        width: 100%;
+        margin:auto;
+    }
+
+    </style>
+   
+ 
+</head>
+<body>
+    <div id="wrapper-div">
+
+        <div id="logo-div">
+            <img src="./assets/AN_COLLEGE_SEAL.jpeg" width="6%" class="anlogo">
+            <u><h1 class="heading">AN COLLEGE PATNA</h1></u>
+        </div>
+
+        <div id="nav-div">
+            <p><H3>WELCOME TO A.N COLLEGE &#9829;</H3>
+             
+            </p>
+        </div>
+
+        <div id="header-div">
+           <h3> Dr. Anugrah Narayan Sinha </h3>
+        </div>
+
+        <div id="main-div" class="clearfix">
+            <div id="sidebar-div">
+                <h1>MCA<h1>
+            </div>
+            
+            <div id="bodyarea-div">
+                DEPARTMENT OF COMPUTER APPLICATION 
+                In 1998 the Bachelor of Computer Application
+                course was started at the first floor of "Shatabdi bhawan". 
+                
+            </div>
+
+        </div>
+
+        <div id="footer-div">
+            Contact Us Address:- Anugrah Narayan College Boring Road, Srikrishnapuri Patna - 800013
+                Contact No:- +91612 2540482
+                Email:-info@ancpatna.ac.in &copy; CHANDAN KUMAR
+        </div>
+
+    </div>
+</body>
+</html>
